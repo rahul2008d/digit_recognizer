@@ -1,17 +1,12 @@
-from turtle import colormode
 from load import *
 from fileinput import filename
-from PIL import Image
 from flask import Flask, render_template, request, flash, redirect, url_for
 from werkzeug.utils import secure_filename
 import tensorflow as tf
 
 import numpy as np
-import keras.models
-import re
 import sys
 import os
-import base64
 sys.path.append(os.path.abspath("./model"))
 
 
