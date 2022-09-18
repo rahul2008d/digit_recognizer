@@ -6,9 +6,6 @@ MarkupSafe==2.1.1
 Werkzeug==2.2.2
 numpy==1.22.2
 tensorflow==2.9.1
-tensorflow-addons==0.17.1
-tensorflow-estimator==2.9.0
-tensorflow-io-gcs-filesystem==0.26.0
 keras==2.9.0
 Keras-Preprocessing==1.1.2
 
